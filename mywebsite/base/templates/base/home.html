@@ -1,0 +1,85 @@
+{% load static %}
+
+<!--
+<h1>Hello, World!</h1>
+<img src="{% static '/images/me.jpg' %}" alt="">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uraz Akgül</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static '/images/me.jpg' %}" alt="">
+                    <h5>Hi, I'm Uraz!</h5>
+                    <p>My Journey to Becoming a Web Developer</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h3>Web Development</h3>
+                    <hr>
+                    <p>
+                        Web development is the process of designing, building, and maintaining websites. Web design, web publishing, web programming, and database management are all included. It is the development of an internet-based application, such as a website.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Python</h3>
+                    <hr>
+                    <p>
+
+                        <h6>Applications:</h6>
+
+                        <ul>
+                            <li>Web and Internet Development</li>
+                            <li>Database Access</li>
+                            <li>Desktop GUIs</li>
+                            <li>Scientific & Numeric</li>
+                            <li>Education</li>
+                            <li>Network Programming</li>
+                            <li>Software & Game Development</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Django</h3>
+                    <hr>
+                    <p>
+                        Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+                    </p>
+                    <p>
+                        Ridiculously fast: Django was designed to help developers take applications from concept to completion as quickly as possible.
+                    </p>
+                    <p>
+                        Reassuringly secure: Django takes security seriously and helps developers avoid many common security mistakes.
+                    </p>
+                    <p>
+                        Exceedingly scalable: Some of the busiest sites on the web leverage Django’s ability to quickly and flexibly scale.
+                    </p>
+                    <p>
+                        Click <a href="https://www.djangoproject.com/" target="_blank">here</a> to learn more.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
